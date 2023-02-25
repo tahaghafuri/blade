@@ -1,23 +1,7 @@
-### Installation (Blade Laravel 5.1)
-The package can be installed via Composer by requiring the "philo/laravel-blade": "3.*" package in your project's composer.json.
+### Installation
 
-```json
-{
-	"require": {
-	    "philo/laravel-blade": "3.*"
-	}
-}
 ```
-
-### Installation (Blade Laravel 4)
-The package can be installed via Composer by requiring the "philo/laravel-blade": "2.*" package in your project's composer.json.
-
-```json
-{
-	"require": {
-	    "philo/laravel-blade": "2.*"
-	}
-}
+composer require tahaghafuri/blade
 ```
 
 ### Usage
