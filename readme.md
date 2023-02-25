@@ -37,9 +37,9 @@ The package can be installed via Composer by requiring the "philo/laravel-blade"
 |
 */
 
-require 'vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 
-use Philo\Blade\Blade;
+use TAG\Blade\Blade;
 
 $views = __DIR__ . '/views';
 $cache = __DIR__ . '/cache';
@@ -48,5 +48,5 @@ $blade = new Blade($views, $cache);
 echo $blade->view()->make('hello')->render();
 ```
 
-You can use all blade features as described in the Laravel 5.1 documentation:
-https://laravel.com/docs/5.1/blade
+You can use all blade features as described in the Laravel 10.x documentation:
+https://laravel.com/docs/10.x/blade
