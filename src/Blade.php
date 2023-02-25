@@ -189,3 +189,5 @@ class Blade {
 		return $this->container['blade.compiler'];
 	}
 }
+
+?>
