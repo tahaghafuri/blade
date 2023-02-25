@@ -1,21 +1,20 @@
 {
-    "name": "philo/laravel-blade",
+    "name": "tahaghafuri/blade",
     "description": "Use the simple and yet powerful Laravel Blade templating engine as a standalone component.",
     "keywords": ["laravel", "blade"],
-    "license": "MIT",
     "authors": [
         {
-            "name": "Philo Hermans",
-            "email": "me@philohermans.com"
+            "name": "Taha Amin Ghafuri",
+            "email": "tahaghafuri@gmail.com"
         }
     ],
     "require": {
-        "illuminate/view": "~5",
-        "illuminate/events": "~5"
+        "illuminate/view": "*",
+        "illuminate/events": "*"
     },
     "autoload": {
         "psr-4": {
-            "Philo\\Blade\\": "src"
+            "TAG\\Blade\\": "src"
         }
     }
 }
