@@ -3,7 +3,6 @@
 ```
 composer require tahaghafuri/blade
 ```
-
 ### Usage
 
 ```php
