@@ -1,7 +1,7 @@
 {
     "name": "tahaghafuri/blade",
     "description": "Use the simple and yet powerful Laravel Blade templating engine as a standalone component.",
-    "keywords": ["laravel", "blade"],
+    "keywords": ["laravel", "blade", "template-engine"],
     "authors": [
         {
             "name": "Taha Amin Ghafuri",
