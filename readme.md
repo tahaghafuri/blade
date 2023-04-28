@@ -31,5 +31,5 @@ $blade = new Blade($views, $cache);
 echo $blade->view()->make('hello')->render();
 ```
 
-You can use all blade features as described in the Laravel 10.x documentation:
+You can use all blade features as described in the Laravel Documentation:
 https://laravel.com/docs/master/blade
