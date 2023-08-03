@@ -5,8 +5,6 @@ namespace TAG\Blade;
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Support\MessageBag;
-use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Engines\PhpEngine;
 use Illuminate\View\Engines\CompilerEngine;
 use Illuminate\View\Engines\EngineResolver;
@@ -163,7 +161,7 @@ class Blade {
 	/**
 	 * Register the view environment.
 	 *
-	 * @return void
+	 * @return Illuminate\View\Factory
 	 */
 	public function registerFactory()
 	{
