@@ -23,13 +23,10 @@ composer require tahaghafuri/blade
 require __DIR__.'/vendor/autoload.php';
 
 use TAG\Blade\Blade;
+use Illuminate\Events\Dispatcher;
 
 $views = __DIR__ . '/views';
 $cache = __DIR__ . '/cache';
 
-$blade = new Blade($views, $cache);
+$blade = new Blade($views, $cache, new Dispatcher);
 echo $blade->view()->make('hello')->render();
-```
-
-You can use all blade features as described in the Laravel Documentation:
-https://laravel.com/docs/master/blade
